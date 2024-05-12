@@ -1,0 +1,23 @@
+#!/bin/zsh
+#
+# .zsh_plugins.txt - antidote plugins file
+#
+
+zdharma-continuum/fast-syntax-highlighting kind:defer
+
+romkatv/powerlevel10k
+
+ohmyzsh/ohmyzsh path:plugins/git
+
+### Utilities
+romkatv/zsh-bench kind:path
+
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-history-substring-search
+
+zsh-users/zsh-completions
+
+#belak/zsh-utils path:completion
+mattmc3/zephyr path:plugins/completion
+
+ohmyzsh/ohmyzsh path:plugins/kubectl/completion kind:fpath
