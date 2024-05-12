@@ -27,7 +27,6 @@ source $ZDOTDIR/.antidote/antidote.zsh
 antidote load
 
 for file in $ZDOTDIR/conf.d/*.zsh; do
-    print sourcing $file
     source "$file"
 done
 

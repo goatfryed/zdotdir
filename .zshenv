@@ -4,7 +4,7 @@
 #
 
 # this file should be placed in the zsh config dir and symlinked into home
-export ZDOTDIR=$(dirname $(realpath $0))
+export ZDOTDIR="$(dirname "$(realpath "${(%):-%N}")")"
 
 # NOTE: .zshenv needs to live at ~/.zshenv, not in $ZDOTDIR!
 
